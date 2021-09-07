@@ -2297,6 +2297,10 @@ box-shadow: 0px 0px 40px -21px rgba(0,0,0,0.39);
     /* height: 334px; */
     overflow: hidden;
 }
+.engineering .img-box .first .img-custom{
+    height: 380px; 
+    width: 1000px;
+}
 .engineering .img-box .second{
     float: right;
     width: 330px;

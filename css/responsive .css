@@ -195,6 +195,9 @@
 #minimal-bootstrap-carousel .carousel-caption .content {
     padding-left: 50px;
 }
+.engineering .img-box .first .img-custom{
+    height: auto; width: auto;
+}
 }
 @media(max-width: 768px) {
     .main-header ul #contact{
@@ -496,6 +499,9 @@ header.two .top-line-two .social-icons ul li{
 .testimonials-three .item {
     margin-left: 0px;
 }
+.engineering .img-box .first .img-custom{
+    height: auto; width: auto;
+}
 }
 
 @media (max-width: 640px) {
@@ -567,6 +573,9 @@ header.two .top-line-two .social-icons ul li{
 }
 .testimonials-three .testimonials-author .author-img-wraper {
     padding: 0 230px;
+}
+.engineering .img-box .first .img-custom{
+    height: auto; width: auto;
 }
 }
 
@@ -672,6 +681,9 @@ header.two .top-line-two .social-icons{
 }
 .testimonials-three .testimonials-author .author-img-wraper {
     padding: 0 170px;
+}
+.engineering .img-box .first .img-custom{
+    height: auto; width: auto;
 }
 }
 
