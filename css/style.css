@@ -58,7 +58,9 @@
 a, a:hover, a:active {
 	text-decoration: none;
 }
-
+html{
+    scroll-behavior: smooth;
+}
 body {
 	 font-family: 'Poppins', sans-serif;
 	width: 100%;
@@ -2352,6 +2354,9 @@ box-shadow: 0px 0px 40px -21px rgba(0,0,0,0.39);
     color: #3c3c3c;
 }
 
+/* #conatact_us{
+    scroll-behavior: smooth;
+} */
 
 /***************************************
 * 24. Mechanical Engineering page styles styles 
