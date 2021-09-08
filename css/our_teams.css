@@ -6,7 +6,7 @@ h5,
 h6 {
   margin: 0 0 20px 0;
   text-transform: none;
-  color: rgba(251, 173, 26, .8);
+  /* color: rgba(251, 173, 26, .8); */
   font-family: 'Poppins', sans-serif;
   font-weight: 600;
   letter-spacing: 1px;
@@ -30,11 +30,17 @@ a:visited{
 .team{
   margin:40px;
 }
+.our-team-page .role-title{
+    border-top: solid 1px lightgray;
+    padding-top: 8px;
+}
 
 .team-member {
   margin: 15px 0;
   padding: 0;
 }
+
+
 
 .team-member figure {
   position: relative;
@@ -73,6 +79,48 @@ a:visited{
 .team-member h4 {
   margin: 10px 0 0;
   padding: 0;
+}
+
+.toggle .toggle-heading h5{
+    margin: 0;
+    padding: 5px;
+    text-align: center;
+   
+}
+
+.toggle-heading > a:before {
+    /* float: right !important; */
+    position: absolute;
+    right: 25px;
+    top: 4px;
+    font-family: FontAwesome;
+    content: "\f107";
+    padding-right: 5px;
+}
+.toggle-heading > a.collapsed:before {
+    position: absolute;
+    right: 25px;
+    top: 4px;
+    content: "\f105";
+    
+}
+
+.toggle .toggle-heading a {
+    margin-top: 10px;
+    display: block;
+    /* padding: 1px 1px 0px 50px; */
+    background: #FFFFFF;
+    /* border: 1px solid #d7d7d7; */
+    border-top: solid 1px lightgray;
+    border-bottom: solid 1px lightgray;
+    border-radius: 0;
+    color: #414141;
+    position: relative;
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+    box-shadow:none ;
 }
 
 .team-member figcaption {
